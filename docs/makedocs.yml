@@ -1,0 +1,9 @@
+site_name:        TestCI
+repo_url:         https://github.com/Nosferican/TestCI
+site_description: TestCI Docs
+site_author:      José Bayoán Santiago Calderón
+
+theme: material
+
+extra_css:
+  - assets/Documenter.css
