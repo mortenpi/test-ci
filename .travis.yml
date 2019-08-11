@@ -12,6 +12,8 @@ matrix:
   include:
     - os: windows
       arch: x86
+    - os: windows
+      arch: x64
 
 notifications:
   email: false
