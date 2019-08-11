@@ -1,14 +1,10 @@
 language: julia
 julia:
   - 1.3
-matrix:
-  include:
-    - os: linux
-    - os: osx
-    - os: windows
-      arch: x64
-    - os: windows
-      arch: x86
+os:
+  - linux
+  - osx
+  - windows
 notifications:
   email: false
 jobs:
